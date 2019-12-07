@@ -74,7 +74,6 @@ bool Stack<T>::pop() {
 		this->delFirst();
 		top = this->head;
 		return true;
-
 	}
 }
 
@@ -118,9 +117,7 @@ bool Stack<T>::empty() {
 	if (this->emptyList())
 		return true;
 	else
-	{
 		return false;
-	}
 }
 
 template <class T>
